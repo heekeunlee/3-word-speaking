@@ -55,17 +55,9 @@ export const chapters = [
                     objects: ["online shopping", "internet", "buy"]
                 },
                 explanation: "3단어 법칙은 다른 사람에게도 적용돼요. '그녀는(She) 사랑한다(loves) 쇼핑을' 순서로 말해보세요."
-            }
-        ]
-    },
-    {
-        id: 2,
-        title: "2장. 동작과 상태를 묘사하자",
-        description: "일상적인 행동을 심플한 동사로 표현해봐요.",
-        color: "bg-sky-100",
-        scenarios: [
+            },
             {
-                id: "2-1",
+                id: "1-4",
                 korInfo: "나는 보통 아침을 안 먹어요.",
                 badSentence: "I typically don't eat breakfast.",
                 focus: "부정문 피하기",
@@ -80,7 +72,65 @@ export const chapters = [
                     objects: ["breakfast", "meal", "food"]
                 },
                 explanation: "not을 쓰지 않고도 부정의 의미를 전할 수 있어요. 'skip(거르다)'이라는 긍정 동사를 써보세요."
+            },
+            {
+                id: "1-5",
+                korInfo: "아들은 고등학교에서 축구부 소속이에요.",
+                badSentence: "My son is in the soccer team.",
+                focus: "소속 표현",
+                answer: {
+                    subject: "He",
+                    verb: "plays",
+                    object: "soccer"
+                },
+                options: {
+                    subjects: ["He", "My son", "The boy"],
+                    verbs: ["is", "plays", "does"],
+                    objects: ["soccer", "club", "sport"]
+                },
+                explanation: "어디에 '소속'되어 있다는 말은 결국 그 활동을 '한다'는 뜻이죠. play 동사로 간단하게!"
+            },
+            {
+                id: "1-6",
+                korInfo: "딸은 대학생입니다. 음악을 전공하고 있어요.",
+                badSentence: "My daughter's major is music.",
+                focus: "전공 표현",
+                answer: {
+                    subject: "She",
+                    verb: "studies",
+                    object: "music"
+                },
+                options: {
+                    subjects: ["She", "My girl", "Major"],
+                    verbs: ["is", "studies", "majors"],
+                    objects: ["music", "college", "song"]
+                },
+                explanation: "전공한다는 말은 어렵게 생각하지 마세요. 학교에서 무엇을 '공부하는지' 말하면 됩니다."
+            },
+            {
+                id: "1-7",
+                korInfo: "나는 추리소설이 재미있다고 생각해요.",
+                badSentence: "Mystery novels are fun to me.",
+                focus: "생각/느낌",
+                answer: {
+                    subject: "I",
+                    verb: "enjoy",
+                    object: "mysteries"
+                },
+                options: {
+                    subjects: ["I", "Mysteries", "Books"],
+                    verbs: ["think", "enjoy", "are"],
+                    objects: ["mysteries", "fun", "them"]
+                },
+                explanation: "~가 재미있다는 건 내가 그것을 '즐긴다(enjoy)'는 뜻이에요. 주어를 나(I)로 바꿔보세요."
             }
         ]
+    },
+    {
+        id: 2,
+        title: "2장. 동작과 상태를 묘사하자",
+        description: "일상적인 행동을 심플한 동사로 표현해봐요.",
+        color: "bg-sky-100",
+        scenarios: []
     }
 ];

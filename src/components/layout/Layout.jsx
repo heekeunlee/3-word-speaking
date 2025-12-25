@@ -33,6 +33,10 @@ export default function Layout({ children }) {
                         <Layers size={24} strokeWidth={2.5} />
                         <span className="text-[10px] font-bold mt-1">MY DECK</span>
                     </Link>
+                    <Link to="/guide" className={`flex flex-col items-center transition-colors ${location.pathname === '/guide' ? 'text-black' : 'hover:text-gray-600'}`}>
+                        <BookOpen size={24} strokeWidth={2.5} />
+                        <span className="text-[10px] font-bold mt-1">GUIDE</span>
+                    </Link>
                 </nav>
             </div>
         </div>

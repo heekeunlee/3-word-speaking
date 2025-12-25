@@ -5,6 +5,7 @@ import Intro from './pages/Intro';
 import Home from './pages/Home';
 import Chapter from './pages/Chapter';
 import MyDeck from './pages/MyDeck';
+import Guide from './pages/Guide';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/chapter/:id" element={<Chapter />} />
           <Route path="/my-deck" element={<MyDeck />} />
+          <Route path="/guide" element={<Guide />} />
         </Routes>
       </Layout>
     </Router>

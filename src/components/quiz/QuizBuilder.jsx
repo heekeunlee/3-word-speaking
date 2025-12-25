@@ -16,6 +16,7 @@ export default function QuizBuilder({ scenario, onComplete, onNext }) {
         setIsCorrect(false);
         setShowFeedback(false);
         setActiveSlot(null);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [scenario]);
 
     const handleSelect = (type, word) => {
